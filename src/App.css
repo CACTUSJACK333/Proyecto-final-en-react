@@ -1,0 +1,89 @@
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #720808;
+    padding: 20px;
+    color: white;
+  }
+  
+  .Header-menu {
+    flex: 1;
+  }
+  
+  .Header-titulo {
+    flex: 2;
+    text-align: center;
+  }
+  
+  .Menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+  }
+  
+  .Menu a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .Seccion {
+    margin: 50px 0;
+    padding: 50px;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .Seccion-seccion1 {
+    background-color: #850d0d;
+  }
+  
+  .Seccion-seccion2 {
+    background-color: #d82727;
+  }
+  
+  .Seccion-seccion3 {
+    background-color: #f73022;
+  }
+  
+  .Footer {
+    background-color: #282c34;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .Seccion-seccion4 {
+    background-color: #4b1111;
+    color: white;
+  }
+  
+  .carti-contenido {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .carti-imagen {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+  }
+  
+  .carti-texto {
+    text-align: left;
+  }
+  
+  .carti-texto a {
+    color: #dba633;
+    text-decoration: none;
+  }
